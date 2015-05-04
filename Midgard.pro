@@ -15,5 +15,4 @@ CONFIG   -= app_bundle
 TEMPLATE = app
 
 
-SOURCES += main.cpp \
-    marce.cpp
+SOURCES += main.cpp
