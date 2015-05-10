@@ -9,7 +9,7 @@ class VillagerDE: public Villager{
 public:
     VillagerDE();
     VillagerDE(int vida, int ataque, int defensa, int velocidad,
-            int inteligencia, int magia, int hpRegen, int blot, bool runas, int supersticion);
+               int inteligencia, int magia, int hpRegen, int blot, bool runas, bool arma, int supersticion);
     virtual ~VillagerDE();
     void setTipo(string tipo);
 private:
@@ -22,6 +22,7 @@ private:
     int blot;
     bool runas;	//aumenta el % de invocar un Dios Nordico;
     int supersticion;
+    int inteligencia;
     string tipo;
     bool arma;
 };

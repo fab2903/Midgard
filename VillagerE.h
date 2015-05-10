@@ -9,7 +9,7 @@ class VillagerE: public Villager {
 public:
     VillagerE();
     VillagerE(int vida, int ataque, int defensa, int velocidad,
-            int inteligencia, int magia,int hpRegen, int blot, bool runas, int supersticion);
+              int inteligencia, int magia, int hpRegen, int blot, bool runas, bool arma, int supersticion);
     virtual ~VillagerE();
     void setTipo(string tipo);
 private:
@@ -23,6 +23,7 @@ private:
     int runas;//podria ser bool y que cuando se bool haya un
     //50% de chance que por guerra use a un Dios Nordico.
     int supersticion;
+    int inteligencia;
     string tipo;
     bool arma;
 };

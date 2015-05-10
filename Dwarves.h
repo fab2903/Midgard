@@ -10,16 +10,21 @@ public:
     Dwarves();
     virtual ~Dwarves();
     void puebloInicial();
-    void atacantesIniciales();
-    void defensoresIniciales();
-    void magosIniciales();
-    void ingenierosIniciales();
-    void healersIniciales();
-    void crearAtacante();
-    void crearDefensor();
-    void crearMago();
-    void crearIngeniero();
-    void crearHealer();
+//    void atacantesIniciales();
+//    void defensoresIniciales();
+//    void magosIniciales();
+//    void ingenierosIniciales();
+//    void healersIniciales();
+    void crearAtacante(int vida, int ataque, int defensa, int velocidad,
+                       int inteligencia, int magia, int hpRegen, int blot, bool runas, bool arma, int supersticion);
+    void crearDefensor(int vida, int ataque, int defensa, int velocidad,
+                       int inteligencia, int magia, int hpRegen, int blot, bool runas, bool arma, int supersticion);
+    void crearMago(int vida, int ataque, int defensa, int velocidad,
+                   int inteligencia, int magia, int hpRegen, int blot, bool runas, bool arma, int supersticion);
+    void crearIngeniero(int vida, int ataque, int defensa, int velocidad,
+                        int inteligencia, int magia, int hpRegen, int blot, bool runas, bool arma, int supersticion);
+    void crearHealer(int vida, int ataque, int defensa, int velocidad,
+                     int inteligencia, int magia, int hpRegen, int blot, bool runas, bool arma, int supersticion);
     void insertarALaPoblacion(int index, VillagerD* civil);
 private:
     int contadorPoblacionalD;
