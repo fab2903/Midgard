@@ -8,23 +8,25 @@ namespace std {
 class VillagerG: public Villager {
 public:
     VillagerG();
-    VillagerG(int vida, int ataque, int defensa, int velocidad,
-              int inteligencia, int magia, int hpRegen, int blot, bool runas, bool arma, int supersticion);
+    VillagerG(double vida, double ataque, double defensa, double velocidad,
+              double inteligencia, double magia, double hpRegen, double blot, bool runas, bool arma, double supersticion);
     virtual ~VillagerG();
     void setTipo(string tipo);
 private:
-    int vida;
-    int ataque;
-    int defensa;
-    int velocidad;
-    int magia;
-    int energiaVital;
-    int blot;
-    bool runas;//podria ser bool y que cuando se bool haya un
+    double vida;
+    double ataque;
+    double defensa;
+    double velocidad;
+    double magia;
+    double energiaVital;
+    double blot;
+    double runas;//podria ser bool y que cuando se bool haya un
     //50% de chance que por guerra use a un Dios Nordico.
-    int supersticion;
-    int inteligencia;
+    double supersticion;
+    double inteligencia;
     string tipo;
+    string cromosomas;
+    double fitness;
     bool arma;
 };
 

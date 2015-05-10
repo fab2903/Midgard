@@ -7,8 +7,8 @@ VillagerG::VillagerG() {
 
 }
 
-VillagerG::VillagerG(int vida, int ataque, int defensa, int velocidad,
-            int inteligencia, int magia, int hpRegen, int blot, bool runas, bool arma, int supersticion){
+VillagerG::VillagerG(double vida, double ataque, double defensa, double velocidad,
+                     double inteligencia, double magia, double hpRegen, double blot, bool runas, bool arma, double supersticion){
     this->vida = vida;
     this->ataque = ataque;
     this->defensa = defensa;

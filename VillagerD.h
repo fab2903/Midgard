@@ -9,24 +9,26 @@ namespace std {
 class VillagerD: public Villager{
 public:
     VillagerD();
-    VillagerD(int vida, int ataque, int defensa, int velocidad,
-              int inteligencia, int magia, int hpRegen, int blot, bool runas, bool arma, int supersticion); //hacer CONST y doubles para sacar
+    VillagerD(double vida, double ataque, double defensa, double velocidad,
+              double inteligencia, double magia, double hpRegen, double blot, bool runas, bool arma, double supersticion); //hacer CONST y doubles para sacar
                                                                                             //porcentajes  con los valores.
     virtual ~VillagerD();
     void setTipo(string tipo);
 private:
-    int vida;
-    int ataque;
-    int defensa;
-    int velocidad;
-    int magia;
-    int energiaVital;
-    int blot;
-    int runas;//podria ser bool y que cuando se bool haya un
+    double vida;
+    double ataque;
+    double defensa;
+    double velocidad;
+    double magia;
+    double energiaVital;
+    double blot;
+    double runas;//podria ser bool y que cuando se bool haya un
     //50% de chance que por guerra use a un Dios Nordico.
-    int supersticion;
-    int inteligencia;
+    double supersticion;
+    double inteligencia;
     string tipo;
+    string cromosomas;
+    double fitness;
     bool arma;
 };
 
