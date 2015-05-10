@@ -15,8 +15,29 @@ CONFIG   -= app_bundle
 TEMPLATE = app
 
 
-SOURCES += main.cpp \
-    clase1.cpp
+SOURCES += \
+    DarkElves.cpp \
+    Dwarves.cpp \
+    Elves.cpp \
+    Giants.cpp \
+    MIdgard.cpp \
+    Pueblo.cpp \
+    Vllager.cpp \
+    VillagerD.cpp \
+    VillagerDE.cpp \
+    VillagerE.cpp \
+    VillagerG.cpp
+
 
 HEADERS += \
-    clase1.h
+    DarkElves.h \
+    Dwarves.h \
+    Elves.h \
+    Giants.h \
+    Midgard.h \
+    Pueblo.h \
+    Villager.h \
+    VillagerD.h \
+    VillagerDE.h \
+    VillagerE.h \
+    VillagerG.h
