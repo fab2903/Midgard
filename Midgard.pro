@@ -26,7 +26,8 @@ SOURCES += \
     VillagerD.cpp \
     VillagerDE.cpp \
     VillagerE.cpp \
-    VillagerG.cpp
+    VillagerG.cpp \
+    xml.cpp
 
 
 HEADERS += \
@@ -40,4 +41,5 @@ HEADERS += \
     VillagerD.h \
     VillagerDE.h \
     VillagerE.h \
-    VillagerG.h
+    VillagerG.h \
+    xml.h
